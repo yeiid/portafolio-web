@@ -23,57 +23,57 @@ const Services = () => {
                     <i className="uil uil-web-grid services__icon"></i>
                         <h3 className="services__title">Product <br/> Designer</h3>
                 </div>
-                <span className="services__button" onClick={()=>{
-                    toggleTab(1)}}>View more <i className="uil uil-arrow-right services__button_icon"> </i></span>
+                    <span className="services__button" onClick={()=>{
+                        toggleTab(1)}}>View more <i className="uil uil-arrow-right services__button_icon"> </i></span>
 
-                <div className={toggleState === 1? "services__modal active-modal":"services__modal" }>
-                    <div className="services__modal-content">
-                        <i onClick={()=>toggleTab(0)} className="uil uil-times services__modal-close"></i>
-                        <h3 className="services__modal-title">
-                        Product Designer
-                        </h3>
+                    <div className={toggleState === 1? "services__modal active-modal":"services__modal" }>
+                        <div className="services__modal-content">
+                            <i onClick={()=>toggleTab(0)} className="uil uil-times services__modal-close"></i>
+                            <h3 className="services__modal-title">
+                            Product Designer
+                            </h3>
 
-                        <p className="services__modal-descriptiom">
-                        Service with more than 3 years of experience.Providing quality work to clients and companies.</p>
+                            <p className="services__modal-descriptiom">
+                            Service with more than 3 years of experience.Providing quality work to clients and companies.</p>
 
-                        <ul className="services__modal-services grid">
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon">
-                                
-                                </i>
-                                <p className="services__modal-info">I develop the user interface.</p>
-                            </li>
+                            <ul className="services__modal-services grid">
 
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon">
-                                
-                                </i>
-                                <p className="services__modal-info">I Web page development.</p>
-                            </li>
+                                <li className="services__modal-service">
+                                    <i className="uil uil-check-circle services__modal-icon">
 
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon">
-                                
-                                </i>
-                                <p className="services__modal-info">I I create ux element interactions.</p>
-                            </li>
+                                    </i>
+                                    <p className="services__modal-info">diseño de interdaces.</p>
+                                </li>
 
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon">
-                                
-                                </i>
-                                <p className="services__modal-info">I I I position your company brand.</p>
-                            </li>
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon">
-                                
-                                </i>
-                                <p className="services__modal-info">I I I Design and mockups of products for companies.</p>
-                            </li>
-                        </ul>
+                                <li className="services__modal-service">
+                                    <i className="uil uil-check-circle services__modal-icon">
+                                    </i>
+                                    <p className="services__modal-info">I Web page development.</p>
+                                </li>
+
+                                <li className="services__modal-service">
+                                    <i className="uil uil-check-circle services__modal-icon">
+
+                                    </i>
+                                    <p className="services__modal-info">I I create ux element interactions.</p>
+                                </li>
+
+                                <li className="services__modal-service">
+                                    <i className="uil uil-check-circle services__modal-icon">
+                                    
+                                    </i>
+                                    <p className="services__modal-info">I I I position your company brand.</p>
+                                </li>
+
+                                <li className="services__modal-service">
+                                    <i className="uil uil-check-circle services__modal-icon">
+                                    
+                                    </i>
+                                    <p className="services__modal-info">I I I Design and mockups of products for companies.</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-
 
 
                 </div>

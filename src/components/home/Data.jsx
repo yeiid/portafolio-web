@@ -60,7 +60,7 @@ const Data = () => {
             </h3>
             <p className="home__description">I'm creative designer based in New York, and I'm very passionate and dedicated to my work.
             </p>
-            <a href="#contact" className="button button--flex">say hello
+            <a href="#contact" className="button button--flex"> DI HOLA
             <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
